@@ -5,74 +5,54 @@
 }
 
 body {
-    background: #222222;
-}
-
-.list-menu img {
-    width: 24px;
-    margin-right: 8px;
-}
-
-#side-bar {
-    position: fixed;
-    width: 223px;
-    height: 100%;
-    background: #222222;
-    left: -200px;
-    top: 29px;
-    transition: all 500ms linear;
-}
-
-#side-bar.active {
-    background: #222222;
-    left: 0px;
-    top: 29px;
-}
-
-.active #social-detail {
-    visibility: hidden;
-}
-
-.active #social-detail {
-    visibility: hidden;
-}
-
-#side-bar ul li {
-    color: #f4b02f;
-    font-weight: bold;
-    list-style: none;
-    padding: 15px 10px;
-    border-bottom: 3px solid color rgba(100, 100, 100, 0.3);
-}
-
-#side-bar .toggle-btn {
-    cursor: pointer;
-    background: #222222;
-    padding: 15px 10px 866px 230px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-#side-bar .toggle-btn span {
-    display: block;
-    width: 30px;
-    height: 5px;
-    background: #f4b02f;
-    margin: 5px 0px;
-}
-
-.list-menu {
-    cursor: pointer;
-    position: relative;
-    margin-top: 10px;
+    background-image: url("./Asset/background.jpeg");
 }
 
 .card {
     position: relative;
     background: #f4b02f;
     margin-left: 690px;
-    margin-top: 109px;
+    margin-top: 120px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 40%;
+    padding-bottom: 35px;
+    border-radius: 12px;
+}
+#title{
+    margin-left: 155px;
+    padding-top: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #222222;
+}
+.form-login p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 73px;
+    color: #222222;
+    font-weight: bold;
+}
+.card input{
+    width: 66%;
+    height: 41px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 12px 8px;
+    margin-left: 72px;
+}
+.button-submit{
+    position: relative;
+    background-color: #222222;
+    width: 40%;
+    text-align: center;
+    height: 33px;
+    border-radius: 4px;
+    margin-left: 157px;
+    padding-top: 18px;
+}
+.button-submit a {
+    text-decoration: none;
+    color: #ffffff;
 }

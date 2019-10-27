@@ -1,0 +1,229 @@
+@media screen and (min-width: 320px) {
+body{
+    background-size: cover;
+    background-position: 40%;
+    width: 100%;
+}
+.card {
+    position: relative;
+    margin-top: 67px;
+    width: 85%;
+    margin-left: 27px;
+    padding-bottom: 23px;
+}
+#title {
+    margin-left: 43px;
+    padding-top: 32px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.form-login p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+.card input {
+    width: 86%;
+    height: 29px;
+    margin-left: 20px;
+}
+.button-submit{
+    position: relative;
+    float: left;
+    background-color: #222222;
+    width: 42%;
+    text-align: center;
+    height: 25px;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding-top: 11px;
+    font-size: 13px;
+}
+.button-submit a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.button{
+    display: inline;
+}
+.button-field{
+    position: relative;
+    float: right;
+    background-color: #222222;
+    width: 38%;
+    text-align: center;
+    height: 30px;
+    font-size: 13px;
+    color: orange;
+    border-radius: 4px;
+    margin-right: 23px;
+    padding-top: 7px;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        position: relative;
+        margin-top: 252px;
+        width: 88%;
+        margin-left: 51px;
+        padding-bottom: 60px;
+    }
+    #title {
+        margin-left: 198px;
+        padding-top: 32px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .form-login p {
+        margin-left: 38px;
+        font-size: 18px;
+    }
+    .card input {
+        width: 86%;
+        height: 29px;
+        margin-left: 37px;
+    }
+    .button-submit{
+        position: relative;
+        float: left;
+        background-color: #222222;
+        width: 35%;
+        text-align: center;
+        height: 33px;
+        border-radius: 4px;
+        margin-left: 73px;
+        padding-top: 18px;
+    }
+    .button-submit a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .button{
+        display: inline;
+    }
+    .button-field{
+        position: relative;
+        float: right;
+        background-color: #222222;
+        width: 35%;
+        text-align: center;
+        height: 33px;
+        font-size: 14px;
+        color: orange;
+        border-radius: 4px;
+        margin-right: 70px;
+        padding-top: 18px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .card{
+        margin-left: 61px;
+    }
+    #title {
+        margin-left: 322px;
+        padding-top: 32px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .button-submit{
+        position: relative;
+        float: left;
+        background-color: #222222;
+        width: 35%;
+        text-align: center;
+        height: 33px;
+        border-radius: 4px;
+        margin-left: 73px;
+        padding-top: 18px;
+    }
+    .button-submit a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .button{
+        display: inline;
+    }
+    .button-field{
+        position: relative;
+        float: right;
+        background-color: #222222;
+        width: 35%;
+        text-align: center;
+        height: 33px;
+        font-size: 14px;
+        color: orange;
+        border-radius: 4px;
+        margin-right: 107px;
+        padding-top: 18px;
+    }
+
+}
+
+@media screen and (min-width: 1230px) {
+    .card {
+        position: relative;
+        background: #f4b02f;
+        margin-left: 690px;
+        margin-top: 120px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 40%;
+        padding-bottom: 78px;
+        border-radius: 12px;
+    }
+    #title{
+        margin-left: 155px;
+        padding-top: 32px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 26px;
+        color: #222222;
+    }
+    .form-login p{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 73px;
+        color: #222222;
+        font-weight: bold;
+    }
+    .card input{
+        width: 72%;
+        height: 41px;
+        border-radius: 3px;
+        background-color: #fff;
+        border: 1px solid #dedede;
+        padding: 12px 8px;
+        margin-left: 72px;
+    }
+    .button-submit{
+        position: relative;
+        float: left;
+        background-color: #222222;
+        width: 35%;
+        text-align: center;
+        height: 33px;
+        border-radius: 4px;
+        margin-left: 73px;
+        padding-top: 18px;
+    }
+    .button-submit a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .button{
+        display: inline;
+    }
+    .button-field{
+        position: relative;
+        float: right;
+        background-color: #222222;
+        width: 35%;
+        text-align: center;
+        height: 33px;
+        font-size: 14px;
+        color: orange;
+        border-radius: 4px;
+        margin-right: 70px;
+        padding-top: 18px;
+    }
+}

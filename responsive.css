@@ -48,11 +48,13 @@
     .content-left {
         float: left;
         width: 57%;
+        padding-bottom: 53px;
     }
     .content-right {
-        margin-top: -635px;
+        margin-top: -688px;
         float: right;
         width: 43%;
+        padding-bottom: 55px;
     }
     #experience {
         margin-top: 4px;
@@ -88,10 +90,17 @@
 
 @media screen and (min-width: 1230px) {
     #experience {
-        margin-top: 59px;
+        margin-top: 68px;
+    }
+    #side-bar {
+        height: auto;
+    }
+    #side-bar .toggle-btn {
+        padding: 15px 10px 700px 230px;
     }
     .content-right {
-        margin-top: -662px;
+       margin-top: -720px;
+       height: auto;
     }
     .content-left img {
         position: relative;

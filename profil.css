@@ -8,7 +8,10 @@
     width: 24px;
     margin-right: 8px;
 }
-
+.list-menu a{
+    text-decoration: none;
+    color: #f4b02f;
+}
 #side-bar {
     position: fixed;
     width: 223px;
