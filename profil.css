@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.list-menu img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+#side-bar {
+    position: fixed;
+    width: 223px;
+    height: 100%;
+    background: #222222;
+    left: -200px;
+    transition: all 500ms linear;
+}
+
+#side-bar.active {
+    background: #222222;
+    left: 0px;
+}
+
+.active #social-detail {
+    visibility: hidden;
+}
+
+.active #social-detail {
+    visibility: hidden;
+}
+
+#side-bar ul li {
+    color: #f4b02f;
+    font-weight: bold;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 3px solid color rgba(100, 100, 100, 0.3);
+}
+
+#side-bar .toggle-btn {
+    cursor: pointer;
+    background: #222222;
+    padding: 15px 10px 866px 230px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#side-bar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #f4b02f;
+    margin: 5px 0px;
+}
+
+.list-menu {
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+}
+
+.content-body {
+    display: inline;
+    width: 100%;
+}
+
+.content-left {
+    float: left;
+    background: #222222;
+    width: 57%;
+}
+
+.content-left img {
+    position: relative;
+    width: 165px;
+    height: 159px;
+    margin-left: 277px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+#name-info {
+    margin-left: 235px;
+    margin-top: 21px;
+    color: #f4b02f;
+    font-weight: bold;
+}
+
+#name-info p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#desc-title {
+    margin-left: 298px;
+    margin-top: 5px;
+    color: #ffff;
+}
+
+#contact {
+    margin-left: 70px;
+    margin-top: 19px;
+    color: #ffff;
+    padding: 15px 15px;
+    background: #f4b02f;
+    font-weight: bold;
+}
+
+#contact-info {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 84px;
+    margin-top: 26px;
+    color: #ffff;
+}
+
+#contact-info .number {
+    margin-bottom: 15px;
+}
+
+#contact-info a {
+    color: #f4b02f;
+}
+
+#contact-info b {
+    margin-left: 10px;
+}
+
+#social-media {
+    margin-left: 70px;
+    margin-top: 38px;
+    color: #ffff;
+    padding: 15px 15px;
+    background: #f4b02f;
+    font-weight: bold;
+}
+
+#social-detail a {
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #ffff;
+}
+
+#social-detail {
+    display: block;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+#social-detail #twitter a {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 187px;
+    text-decoration: none;
+    color: #f4b02f;
+    font-weight: bold;
+}
+
+#social-detail #github a {
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    left: 187px;
+    text-decoration: none;
+    color: #f4b02f;
+    font-weight: bold;
+}
+
+#social-detail img {
+    cursor: pointer;
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin-left: 117px;
+    margin-top: 18px;
+}
+
+.content-right {
+    float: right;
+    background: #f4b02f;
+    width: 43%;
+    height: 100%;
+}
+
+#profile {
+    margin-top: 23px;
+    color: #fff6e4;
+    padding: 15px 15px;
+    background: #6e665e;
+    font-weight: bold;
+}
+
+.desc-profile {
+    text-align: justify;
+    margin-left: 14px;
+    margin-top: 19px;
+}
+
+#experience {
+    margin-top: 3px;
+    color: #fff6e4;
+    padding: 15px 15px;
+    background: #6e665e;
+    font-weight: bold;
+}
+
+.content-expe #title {
+    position: relative;
+    margin-top: 17px;
+    margin-left: 32px;
+}
+
+.content-expe p {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 32px;
+}
+
+#awards {
+    margin-top: 36px;
+    color: #fff6e4;
+    padding: 15px 15px;
+    background: #6e665e;
+    font-weight: bold;
+}
+
+.content-awards #title-2 {
+    position: relative;
+    margin-top: 14px;
+    margin-left: 32px;
+}
+
+.content-awards p {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 32px;
+}
+
+.button-edit {
+    position: absolute;
+    left: 605px;
+    top: 25px;
+    background-color: #f4b02f;
+    width: 96px;
+    height: 29px;
+    border-radius: 4px;
+}
+
+.button-edit p {
+    cursor: pointer;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: 6px;
+}

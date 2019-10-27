@@ -1,0 +1,129 @@
+@media screen and (min-width: 320px) {
+    .content-body {
+        display: block;
+    }
+    .content-left {
+        float: none;
+        width: 700px;
+    }
+    .content-right {
+        float: none;
+        margin-top: -23px;
+        width: 630px;
+        margin-left: 70px;
+        height: auto;
+    }
+    #side-bar .toggle-btn {
+        padding: 15px 10px 1193px 230px;
+    }
+    .button-edit {
+        left: 560px;
+        top: 43px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content-left {
+        width: 102%;
+    }
+    .content-right {
+        margin-top: -24px;
+        width: 93%;
+        margin-left: 70px;
+    }
+    #side-bar .toggle-btn {
+        padding: 15px 10px 1193px 230px;
+    }
+    .button-edit {
+        left: 647px;
+        top: 43px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .content-body {
+        display: inline;
+        width: 100%;
+    }
+    .content-left {
+        float: left;
+        width: 57%;
+    }
+    .content-right {
+        margin-top: -635px;
+        float: right;
+        width: 43%;
+    }
+    #experience {
+        margin-top: 4px;
+    }
+    .desc-profile {
+        font-size: 14px;
+    }
+    .content-left img {
+        width: 140px;
+        height: 140px;
+        margin-left: 251px;
+    }
+    .button-edit {
+        width: 90px;
+        left: 467px;
+        top: 34px;
+        font-size: 13px;
+    }
+    #name-info {
+        margin-left: 214px;
+        margin-top: 21px;
+    }
+    #name-info p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #desc-title {
+        margin-left: 265px;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    #experience {
+        margin-top: 59px;
+    }
+    .content-right {
+        margin-top: -662px;
+    }
+    .content-left img {
+        position: relative;
+        width: 165px;
+        height: 159px;
+        margin-left: 277px;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+    #name-info {
+        margin-left: 235px;
+        margin-top: 21px;
+        color: #f4b02f;
+        font-weight: bold;
+    }
+    #name-info p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    #desc-title {
+        font-size: 17px;
+        margin-left: 298px;
+        margin-top: 5px;
+        color: #ffff;
+    }
+    .button-edit {
+        position: absolute;
+        left: 605px;
+        top: 25px;
+        background-color: #f4b02f;
+        width: 96px;
+        height: 29px;
+        border-radius: 4px;
+    }
+}
